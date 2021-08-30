@@ -1,0 +1,25 @@
+bass source /etc/profile
+# BS Cleanup
+export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority"
+
+### Set Bat as the Manpager
+set fish_greeting
+set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
+set TERMINAL "kitty"
+set BROWSER "firefox"
+set EDITOR "emacsclient -t -a ''"             #$EDITOR uses Emacs in the terminal 
+set VISUAL "emacsclient -c -a emacs"              # $VISUAL uses Emacs in the GUI 
+export YTFZF_PLAYER="devour mpv"
+# Aliases
+alias nano=nvim
+alias l='lsd'
+alias steam='steam -noverifyfiles'
+alias emacs='devour emacsclient -c -a emacs'
+alias temacs="emacsclient -t -a ''"
+alias sxiv='devour sxiv'
+alias feh='devour feh'
+alias zathura='devour zathura'
+alias nvim='nvim -u ~/.config/nvim/.init.vim'
+
+fish_vi_key_bindings
+starship init fish | source

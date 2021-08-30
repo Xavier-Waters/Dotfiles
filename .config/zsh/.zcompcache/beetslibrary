@@ -1,0 +1,2 @@
+BEETS_LIBRARY='~/Data/Music.db'
+BEETS_CONFIG='/home/xavier/.config/beets/config.yaml'

@@ -1,0 +1,21 @@
+background_opacity: 0.8
+import:
+- ~/.config/alacritty/nord.yml
+font:
+  normal:
+    family: "Cascadia Code"
+    style: Regular
+
+  bold:
+    family: "Cascadia Code"
+    style: Bold
+
+  italic:
+    family: "Cascadia Code"
+    style: Italic
+
+  bold_italic:
+    family: "Cascadia Code"
+    style: Bold Italic
+
+  size: 11

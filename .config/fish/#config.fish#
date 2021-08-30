@@ -1,0 +1,17 @@
+bass source /etc/profile
+# BS Cleanup
+export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority"
+
+# Default Set
+
+set TERMINAL "kitty"
+set BROWSER "firefox"
+set EDITOR "emacsclient -t -a ''"
+set VISUAL "emacs -c -a emacs"
+# Aliases
+alias nano=nvim
+alias l='lsd -A'
+alias steam='steam -noverifyfiles'
+
+fish_vi_key_bindings
+starship init fish | source

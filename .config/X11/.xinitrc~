@@ -1,0 +1,12 @@
+xbacklight -set 100
+xrdb /home/xavier/.config/X11/.Xresources
+
+exec
+emacs --daemon &
+xbacklight -set 100 &
+xrdb /home/xavier/.config/X11/.Xresources &
+dbus &
+dbus-launch &
+picom -b --experimental-backends & 
+pipewire &
+awesome

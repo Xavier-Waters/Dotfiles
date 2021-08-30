@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/xavier/.builds/dwm'
+let g:netrw_dirhist_1='/home/xavier/.builds/dwm/.git'
+let g:netrw_dirhist_0='/home/xavier/.builds/dwm'
+let g:netrw_dirhist_9='/etc/fish/functions'
+let g:netrw_dirhist_8='/etc/fish/conf.d'
+let g:netrw_dirhist_7='/etc/portage'
+let g:netrw_dirhist_6='/home/xavier/.ncmpcpp'
+let g:netrw_dirhist_5='/home/xavier/.config/mpd'
+let g:netrw_dirhist_4='/etc/cron.monthly'
+let g:netrw_dirhist_3='/home/xavier/.config'
